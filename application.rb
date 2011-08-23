@@ -19,5 +19,5 @@ end
 
 # root page
 get '/' do
-  haml :root
+  erb :index
 end
