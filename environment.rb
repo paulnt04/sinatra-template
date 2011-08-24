@@ -5,7 +5,7 @@ require 'dm-timestamps'
 require 'dm-validations'
 require 'dm-aggregates'
 require 'dm-migrations'
-require 'haml'
+require 'erb'
 require 'ostruct'
 
 require 'sinatra' unless defined?(Sinatra)
